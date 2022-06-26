@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.header > label{
+  font-size: 30px;
+  padding: 10px;
+  color: blueviolet;
+  border-bottom: 1px solid #000;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form > button[type=submit] {
+  justify-self: center;
+  align-self: center;
+  background-color: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.field > label {
+  margin-bottom: 5px;
+}
+
+.field > input {
+  border-radius: 5px;
+  height: 20px;
+  font-size: 15px;
+}
+
+.sign > a {
+  outline: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.sign {
+  font-size: 15px;
+  padding: 10px;
+}
